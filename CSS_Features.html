@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSS Features Assignment</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+         /* Global Styles */
+         body {
+            font-family: 'Roboto', sans-serif;
+            margin: 1;
+            padding: 10;
+            background-color: #f3f3f3; /* Light background color for the entire page */
+            color: #333; /* Default text color */
+        }
+
+         /* Header Styling */
+         header {
+            background-color: #333; /* Dark background color for the header */
+            padding: 20px; /* Padding for the header */
+            text-align: center;
+            color: #fff; /* Text color for the header */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+         /* Introduction Section */
+         #introduction {
+            background-color: #fff; /* White background color for the introduction section */
+            padding: 30px; /* Padding for the introduction section */
+            margin: 20px 0; /* Margin for the introduction section */
+            border-radius: 10px; /* Rounded corners for the introduction section */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+            text-align: justify;
+        }
+
+         /* Skills Display */
+         #skills {
+            background-color: #f9f9f9; /* Light gray background color for the skills section */
+            padding: 30px; /* Padding for the skills section */
+            margin: 20px 0; /* Margin for the skills section */
+            border-radius: 10px; /* Rounded corners for the skills section */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+        }
+
+         #skills ul {
+            list-style-type: none;
+            padding: 10;
+            margin-bottom: auto;
+        }
+
+         #skills li {
+            border: 1px solid #ccc; /* Border for each skill item */
+            padding: 20px; /* Padding for each skill item */
+            margin-bottom: 20px; /* Margin between skill items */
+            border-radius: 5px; /* Rounded corners for skill items */
+            transition: all 0.3s ease; /* Smooth transition effect */
+        }
+
+         #skills li:hover {
+            transform: translateY(-5px); /* Hover effect to lift the skill item */
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+        }
+
+         /* Contact Information */
+         #contact {
+            background-color: #333; /* Dark background color for the contact section */
+            padding: 30px; /* Padding for the contact section */
+            color: #fff; /* Text color for the contact section */
+            text-align: center;
+            border-radius: 10px; /* Rounded corners for the contact section */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+            
+        }
+
+         /* Responsive Design */
+         @media (max-width: 768px) {
+            /* Adjust margins and padding for smaller screens */
+            header, #introduction, #skills, #contact {
+                padding: 20px;
+            }
+        }
+        </style>
+    </head>
+        <body>
+            <header>
+                <h1 style="font-size:xx-large;"> MAOSA NYANG'AU DUKE </h1>
+            </header>
+            <section id="introduction">
+                <h2 style="font-size: 1.8rem;">Introduction</h2>
+                <p style="font-size: 1.2rem;">Having earned my Bachelor's degree in Design from The University of Nairobi, I embarked on a journey of continuous learning and growth. In 2024, I seized the opportunity to join the prestigious PLP (Power Learn Project) in Cohort 4, where I'm immersing myself in the world of technology and innovation. With a passion for creativity and problem-solving, I'm eagerly working towards becoming a proficient full-stack developer and aspiring entrepreneur. Every challenge is an opportunity for me to expand my skills and make meaningful contributions to the digital landscape.</p>
+            </section>
+            <section id="skills">
+                <h2 style="font-size: 1.8rem;">Skills</h2>
+                <ul>
+                    <li style="font-size: 1.2rem;">CAD Designer:</li>
+                    <p style="font-size: 1rem;">Adept at using CAD software to create precise technical drawings and models for product design, architecture, and engineering projects.</p>
+                    <li style="font-size: 1.2rem;">Software Developer:</li>
+                    <p style="font-size: 1rem;">Proficient in designing, developing, and maintaining software applications or systems using various programming languages and development tools. Skilled in analyzing user needs, writing code, and conducting testing to ensure functionality and performance.</p>
+                    <li style="font-size: 1.2rem;">Leadership Qualities:</li>
+                    <p style="font-size: 1rem;">Demonstrates strong leadership qualities with experience in guiding teams, making strategic decisions, and fostering a collaborative work environment.</p>
+                </ul>
+            </section>
+            <footer id="contact">
+                <h2 style="font-size: 1.8rem;">Contact Information</h2>
+                <p>Send Email:
+                    <a style="color: royalblue;" href="mailto:dukeduke@students.uonbi.ac.ke">dukeduke@students.uonbi.ac.ke</a>
+                </p>
+                <p style="font-size: 1.2rem;">Social media:
+                    <a style="color: black;" href="https://twitter.com/MaosaDuke" alt="twitter" target="_blank">X</a>
+                    <br>
+                    <a style="color: royalblue;" href="https://www.linkedin.com/in/duke-maosa/" target="_blank">linkedin</a>
+                    <br>
+                    <a  style="color:#feda75" href="https://www.instagram.com/maosaduke/" target="_blank">instagram</a>
+                    <br>
+                </p>
+            </footer>
+        </body>
+</html>
